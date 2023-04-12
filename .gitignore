@@ -3,7 +3,6 @@
 # For useful gitignore templates see: https://github.com/github/gitignore
 
 # Salesforce dev
-c/Users/standish/DevTechsStacksAll/Salesforce_Apex/dreamhouse-lwc
 .sf/
 .sfdx/
 .localdevserver/
