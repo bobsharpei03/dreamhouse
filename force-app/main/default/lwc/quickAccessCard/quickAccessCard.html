@@ -1,0 +1,87 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card title="Relationship Liaison External Sites Access Card" class="" variant="base">
+        <lightning-layout multiple-rows="true" class="slds-grid slds-grid_align-space slds-wrap" pull-to-boundary="small">
+            <lightning-layout-item class="special1" size="4" padding="around-small">
+                <div class="slds-box" onclick={handleNavigate1}>
+                <!--<lightning-card onclick={handleNavigate1} class="">-->
+                    <div class="slds-p-horizontal_small">
+                        <div class="slds-media">
+                            <div class="slds-media__body">
+                                <img src={appResources.ERM_Logo} class="customIcon">
+                                <!--<h2 class="slds-align_absolute-center">ERM</h2>-->
+                            </div>
+                        </div>                        
+                    </div>
+                <!--</lightning-card>-->
+                </div>
+                <div>
+                    <h2 class="slds-align_absolute-center">ERM</h2>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item class="special1" size="4" padding="around-small">
+                <div class="slds-box" onclick={handleNavigate1}>
+                <!--<lightning-card onclick={handleNavigate1} class="">-->
+                    <div class="slds-p-horizontal_small">
+                        <div class="slds-media">
+                            <div class="slds-media__body">
+                                <img src={appResources.Edison_Logo} class="customIcon">
+                                <!--<h2 class="slds-align_absolute-center">Edison</h2>-->
+                            </div>
+                        </div>                   
+                    </div>
+                <!--</lightning-card>-->
+                </div>
+                <div>
+                    <h2 class="slds-align_absolute-center">Edison</h2>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item class="special1" size="4" padding="around-small">
+                <div class="slds-box" onclick={handleNavigate1}>
+                    <div class="slds-p-horizontal_small">
+                        <div class="slds-media">
+                            <div class="slds-media__body">
+                                  <img src={appResources.Tableau} class="customIcon">
+                                <!--<h2 class="slds-align_absolute-center">Tableau</h2>-->
+                            </div>
+                        </div>
+                    </div>
+               </div>  
+               <div>
+                <h2 class="slds-align_absolute-center">Tableau</h2>
+            </div>
+            </lightning-layout-item>
+            <lightning-layout-item class="special1" size="4" padding="around-small">
+                <div class="slds-box" onclick={handleNavigate1}>
+                    <div class="slds-p-horizontal_small">
+                        <div class="slds-media">
+                            <div class="slds-media__body">
+                                <img src={appResources.ProfitLink} class="customIcon">
+                                <!--<h2 class="slds-align_absolute-center">Profitlink</h2>-->
+                            </div>
+                        </div>
+                    </div>
+             </div>  
+             <div>
+                <h2 class="slds-align_absolute-center">Profitlink</h2>
+            </div>
+            </lightning-layout-item>
+            <lightning-layout-item class="special1" size="4" padding="around-small">
+                <div class="slds-box" onclick={handleNavigate1}>
+                    <div class="slds-p-horizontal_small">
+                        <div class="slds-media">
+                            <div class="slds-media__body">
+                                <img src={appResources.VerticalIQ} class="customIcon">
+                                <!--<h2 class="slds-align_absolute-center">Vertical IQ</h2>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                 <div>
+                    <h2 class="slds-align_absolute-center">Vertical IQ</h2>
+                </div>
+            </lightning-layout-item> 
+        </lightning-layout>
+</lightning-card>
+    <!-- this slot shows title as link -->
+</template>
