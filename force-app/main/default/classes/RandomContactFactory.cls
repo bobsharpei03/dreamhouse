@@ -4,7 +4,7 @@ public class RandomContactFactory {
 
         List<Contact> conts = new List<Contact>();
 
-        for(Integer i=0;i<3;i++){
+        for(Integer i=0; i<3; i++){
             Contact c = new Contact(FirstName = 'Test' + i , LastName = lastName + i );
 
             conts.add(c);
