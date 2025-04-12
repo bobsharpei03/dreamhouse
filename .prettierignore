@@ -4,11 +4,8 @@
 
 **/staticresources/**
 .localdevserver
-.sf
 .sfdx
+.sf
 .vscode
-jsconfig.json
-coverage/
 
-# Exclude project config (edited by CI workflow)
-sfdx-project.json
+coverage/
